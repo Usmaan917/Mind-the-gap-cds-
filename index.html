@@ -3,18 +3,111 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome to Mind the Gap CDS!</title>
+  <title>Mind the Gap CDS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1c6b2a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #134e1f;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/5/53/National_Youth_Service_Corps_logo.png') no-repeat center/80px;
+      background-color: #e9fbe5;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .hero h1 {
+      margin-top: 100px;
+      font-size: 2.5rem;
+      color: #1c6b2a;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #1c6b2a;
+    }
+    footer {
+      background: #134e1f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Mind the Gap CDS Group</h1>
+    <p>NYSC Community Development Service | Bridging Gaps, Building Futures</p>
+  </header>
+
   <nav>
-    <a href="index.html">Home</a> |
-    <a href="gallery.html">Gallery</a> |
-    <a href="team.html">Team</a> |
-    <a href="projects.html">Projects</a> |
-    <a href="blog.html">Blog</a> |
-    <a href="admin">Admin</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
   </nav>
-  <h1>Welcome to Mind the Gap CDS!</h1>
-  <p>Content will be updated via CMS.</p>
+
+  <div class="hero">
+    <h1>Empowering Communities, One Step at a Time</h1>
+    <p>Together, we close the gap through education, empowerment, and service.</p>
+  </div>
+
+  <div class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+      Mind the Gap CDS is a platform under the NYSC Community Development Service, dedicated to bridging socio-economic gaps through volunteerism, training, outreach, and education.
+    </p>
+  </div>
+
+  <div class="section" id="projects">
+    <h2>Our Projects</h2>
+    <p>
+      From skill acquisition to community health drives and digital literacy campaigns, our corps members are working to make a difference across local communities.
+    </p>
+  </div>
+
+  <div class="section" id="team">
+    <h2>Meet the Team</h2>
+    <p>
+      Our team consists of passionate NYSC corps members committed to service and development. Meet our coordinators, project leaders, and volunteers.
+    </p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: mindthegapcds@nysc.ng<br />Phone: +234 XXX XXX XXXX</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Mind the Gap CDS. All rights reserved.</p>
+    <p>Follow us: Instagram | Facebook | WhatsApp</p>
+  </footer>
 </body>
 </html>
